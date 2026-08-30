@@ -6,6 +6,8 @@ This repository documents my journey of learning HTML from fundamentals to pract
 
 - Lesson 01 — HTML Introduction & Document Structure
 - Lesson 02 — HTML Elements, Tags & Nesting
+- Lesson 03 - HTML Attributes Basic Introduction
+- Lesson 04 - Headings & Paragraphs
 
 ## 📁 Repository Structure
 

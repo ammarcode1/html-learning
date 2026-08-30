@@ -1,0 +1,79 @@
+<!-- Lesson 3 Examples. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metadata about the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Document title shown in the browser tab -->
+    <title>Developer Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header with a unique id -->
+    <header id="site-header" class="main-header">
+        <h1>Developer Portfolio</h1>
+
+        <!-- title attribute provides additional information -->
+        <p title="A short introduction about the developer">
+            Welcome to my developer portfolio.
+        </p>
+    </header>
+
+    <!-- Main content -->
+    <main id="main-content">
+
+        <!-- Section using a class attribute -->
+        <section class="portfolio-section">
+
+            <h2>My Projects</h2>
+
+            <p class="description">
+                Here are some of the projects I have worked on.
+            </p>
+
+            <!-- Link using href attribute -->
+            <a href="projects.html" class="project-link">
+                View My Projects
+            </a>
+
+        </section>
+
+        <!-- Image using multiple attributes -->
+        <section id="profile-section">
+
+            <h2>My Profile</h2>
+
+            <img
+                src="profile.jpg"
+                alt="Developer profile photo"
+                class="profile-image"
+            >
+
+        </section>
+
+        <!-- Boolean attributes -->
+        <section class="contact-section">
+
+            <h2>Contact Form</h2>
+
+            <input
+                type="text"
+                class="name-input"
+                placeholder="Enter your name"
+                required
+            >
+
+            <button>Submit</button>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
