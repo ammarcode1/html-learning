@@ -8,7 +8,7 @@ This repository documents my journey of learning HTML from fundamentals to pract
 - Lesson 02 — HTML Elements, Tags & Nesting
 - Lesson 03 - HTML Attributes Basic Introduction
 - Lesson 04 - Headings & Paragraphs
-- Lesson 05 - Text Formatting + <br> + <hr>
+- Lesson 05 - Text Formatting
 
 ## 📁 Repository Structure
 
