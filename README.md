@@ -10,6 +10,8 @@ This repository documents my journey of learning HTML from fundamentals to pract
 - Lesson 04 — HTML Headings & Paragraphs
 - Lesson 05 — HTML Text Formatting
 - Lesson 06 — HTML Links
+- Lesson 07 — Images & File Paths
+- Lesson 08 — HTML Lists
 
 ## 📁 Repository Structure
 
