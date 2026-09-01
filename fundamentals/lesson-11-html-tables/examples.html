@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+<body>
+
+    <!--
+        BASIC TABLE
+
+        <table> = complete table
+        <tr> = table row
+        <th> = table header cell
+        <td> = table data cell
+    -->
+
+    <h1>Student Information</h1>
+
+    <table>
+
+        <!-- Header row -->
+        <tr>
+            <th>Name</th>
+            <th>Program</th>
+            <th>Semester</th>
+        </tr>
+
+        <!-- First data row -->
+        <tr>
+            <td>Ammar</td>
+            <td>BS Software Engineering</td>
+            <td>5th</td>
+        </tr>
+
+        <!-- Second data row -->
+        <tr>
+            <td>Ali</td>
+            <td>BS Computer Science</td>
+            <td>6th</td>
+        </tr>
+
+    </table>
+
+
+    <!--
+        THEAD + TBODY
+
+        <thead> = table header rows
+        <tbody> = table main data rows
+    -->
+
+    <h1>Course Information</h1>
+
+    <table>
+
+        <caption>Current Courses</caption>
+
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Credit Hours</th>
+                <th>Instructor</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Database Systems</td>
+                <td>3</td>
+                <td>Mr. Ahmed</td>
+            </tr>
+
+            <tr>
+                <td>Data Structures</td>
+                <td>3</td>
+                <td>Ms. Sara</td>
+            </tr>
+
+            <tr>
+                <td>Linear Algebra</td>
+                <td>3</td>
+                <td>Dr. Khan</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    <!--
+        CAPTION
+
+        <caption> table title/description
+    -->
+
+    <h1>Exam Results</h1>
+
+    <table>
+
+        <caption>Student Exam Results</caption>
+
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ammar</td>
+                <td>Database</td>
+                <td>85</td>
+            </tr>
+
+            <tr>
+                <td>Ali</td>
+                <td>Database</td>
+                <td>78</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+</html>

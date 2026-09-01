@@ -10,10 +10,11 @@ This repository documents my journey of learning HTML from fundamentals to pract
 - Lesson 04 — HTML Headings & Paragraphs
 - Lesson 05 — HTML Text Formatting
 - Lesson 06 — HTML Links
-- Lesson 07 — Images & File Paths
+- Lesson 07 — HTML Images & File Paths
 - Lesson 08 — HTML Lists
-- Lesson 09 — Block vs Inline + div + span
-- Lesson 10 — Classes + IDs
+- Lesson 09 — HTML Block vs Inline + div + span
+- Lesson 10 — HTML Classes + IDs
+- Lesson 11 — HTML Tables
 
 ## 📁 Repository Structure
 
