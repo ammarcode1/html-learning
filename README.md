@@ -18,6 +18,7 @@ This repository documents my journey of learning HTML from fundamentals to pract
 - Lesoon 12 — HTML Semantic Tags
 - Lesson 13 — HTML Head + Meta + Title + Favicon
 - Lesson 14 — HTML + CSS + JavaScript Linking
+- Lesson 15 — HTML Forms Fundamentals
 
 ## 📁 Repository Structure
 
