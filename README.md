@@ -15,6 +15,7 @@ This repository documents my journey of learning HTML from fundamentals to pract
 - Lesson 09 — HTML Block vs Inline + div + span
 - Lesson 10 — HTML Classes + IDs
 - Lesson 11 — HTML Tables
+- Lesoon 12 — HTML Semantic Tags
 
 ## 📁 Repository Structure
 
