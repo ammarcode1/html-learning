@@ -13,6 +13,7 @@ This repository documents my journey of learning HTML from fundamentals to pract
 - Lesson 07 — Images & File Paths
 - Lesson 08 — HTML Lists
 - Lesson 09 — Block vs Inline + div + span
+- Lesson 10 — Classes + IDs
 
 ## 📁 Repository Structure
 
