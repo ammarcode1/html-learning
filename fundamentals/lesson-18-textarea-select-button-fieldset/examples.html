@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Controls Examples</title>
+</head>
+
+<body>
+
+    <h1>University Feedback Form</h1>
+
+    <form action="/feedback" method="post">
+
+        <!-- Group related personal information -->
+        <fieldset>
+
+            <legend>Personal Information</legend>
+
+            <label for="name">Full Name:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+        </fieldset>
+
+        <br>
+
+        <!-- Group academic information -->
+        <fieldset>
+
+            <legend>Academic Information</legend>
+
+            <label for="department">Department:</label>
+
+            <!-- Select creates a dropdown -->
+            <select id="department" name="department">
+
+                <!-- Each option represents one choice -->
+                <option value="se">Software Engineering</option>
+                <option value="cs">Computer Science</option>
+                <option value="it">Information Technology</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="semester">Semester:</label>
+
+            <select id="semester" name="semester">
+
+                <option value="1">1st Semester</option>
+                <option value="2">2nd Semester</option>
+                <option value="3">3rd Semester</option>
+                <option value="4" selected>4th Semester</option>
+                <option value="5">5th Semester</option>
+
+            </select>
+
+        </fieldset>
+
+        <br>
+
+        <!-- Textarea is used for multi-line text -->
+        <label for="feedback">Your Feedback:</label>
+
+        <br>
+
+        <textarea
+            id="feedback"
+            name="feedback"
+            rows="5"
+            cols="40"
+            placeholder="Write your feedback here..."
+        ></textarea>
+
+        <br><br>
+
+        <!-- Explicitly define the button type -->
+        <button type="submit">Submit Feedback</button>
+
+        <button type="reset">Clear Form</button>
+
+    </form>
+
+</body>
+
+</html>
