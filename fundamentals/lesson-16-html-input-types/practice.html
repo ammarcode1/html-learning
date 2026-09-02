@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    <form action="/form" method="post">
+
+        <label for="username">Enter your Name:</label>
+        <input type="text" id="username" name="username" placeholder="eg. Ammar">
+
+        <br><br>
+
+        <label for="mail">Enter Email:</label>
+        <input type="email" id="mail" name="mail" placeholder="ammar@gmail.com">
+
+        <br><br>
+
+        <label for="pass">Enter Password:</label>
+        <input type="password" id="pass" name="pass">
+
+        <br><br>
+
+        <label for="exp">Years of Experience:</label>
+        <input type="number" id="exp" name="experience" placeholder="e.g: 5">
+
+        <br><br>
+
+        <label for="avail">Available Start Date: </label>
+        <input type="date" id="avail" name="avail">
+
+        <br><br>
+
+        <h2>Employment Type</h2>
+        <input type="radio" id="full" name="Employment" value="Full-time">
+        <label for="full">Full-time</label>
+
+        <input type="radio" id="part" name="Employment" value="Part-time">
+        <label for="part">Part-time</label>
+
+        <input type="radio" id="intern" name="Employment" value="Internship">
+        <label for="intern">Internship</label>
+
+        <br><br>
+
+        <h2>Skills</h2>
+        <input type="checkbox" id="first" name="skills" value="HTML">
+        <label for="first">HTML</label>
+
+        <input type="checkbox" id="second" name="skills" value="CSS">
+        <label for="second">CSS</label>
+
+        <input type="checkbox" id="third" name="skills" value="JavaScript">
+        <label for="third">JavaScript</label>
+
+        <input type="checkbox" id="fourth" name="skills" value="Node.js">
+        <label for="fourth">Node.js</label>
+
+        <br><br>
+
+        <h2>Resume</h2>
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="Upload">
+
+        <br><br>
+
+        <label for="sub">Submit button:</label>
+        <input type="submit" value="Submit">
+
+        <hr>
+
+        <br><br>
+
+        <label for="reset">Reset Form:</label>
+        <input type="reset" id="reset" value="Reset">
+    </form>
+</body>
+</html>

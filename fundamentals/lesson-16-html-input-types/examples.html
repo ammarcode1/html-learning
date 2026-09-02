@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types Examples</title>
+</head>
+
+<body>
+
+    <h1>Student Information</h1>
+
+    <!-- Text input for normal text -->
+    <label for="name">Full Name:</label>
+    <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+    >
+
+    <br><br>
+
+    <!-- Email input for email addresses -->
+    <label for="email">Email:</label>
+    <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+    >
+
+    <br><br>
+
+    <!-- Password input hides the entered characters -->
+    <label for="password">Password:</label>
+    <input
+        type="password"
+        id="password"
+        name="password"
+    >
+
+    <br><br>
+
+    <!-- Number input for numerical values -->
+    <label for="age">Age:</label>
+    <input
+        type="number"
+        id="age"
+        name="age"
+        placeholder="Enter your age"
+    >
+
+    <br><br>
+
+    <!-- Date input provides a date picker -->
+    <label for="dob">Date of Birth:</label>
+    <input
+        type="date"
+        id="dob"
+        name="dob"
+    >
+
+    <hr>
+
+    <h2>Study Program</h2>
+
+    <!-- Radio buttons allow one choice from a group -->
+    <input type="radio" id="bsse" name="program" value="BSSE">
+    <label for="bsse">BS Software Engineering</label>
+
+    <input type="radio" id="bscs" name="program" value="BSCS">
+    <label for="bscs">BS Computer Science</label>
+
+    <hr>
+
+    <h2>Skills</h2>
+
+    <!-- Checkboxes allow multiple choices -->
+    <input type="checkbox" id="html" name="skills" value="HTML">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" id="css" name="skills" value="CSS">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+
+    <hr>
+
+    <h2>Documents</h2>
+
+    <!-- File input allows the user to select a file -->
+    <label for="resume">Upload Resume:</label>
+    <input
+        type="file"
+        id="resume"
+        name="resume"
+    >
+
+    <br><br>
+
+    <!-- Submit input submits the form -->
+    <input type="submit" value="Submit">
+
+    <!-- Reset input restores fields to their initial values -->
+    <input type="reset" value="Reset">
+
+</body>
+</html>
