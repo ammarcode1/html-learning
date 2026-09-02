@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Hostel Application Form</title>
+</head>
+<body>
+    <h1>University Hostel Application Form</h1>
+    <hr>
+
+    <form action="/form" method="post">
+
+        <label for="username">Enter ur name: </label>
+        <input type="text" name="username" id="username" required placeholder="e.g: Ammar" minlength="3" maxlength="30">
+
+        <br><br>
+
+        <label for="IDs">Enter ur ID: </label>
+        <input type="text" name="IDs" id="IDs" required placeholder="L1F24BSSE0364">
+
+        <br><br>
+
+        <label for="age">Enter ur age: </label>
+        <input type="number" name="age" id="age" required min="18" max="30">
+
+        <br><br>
+
+        <label for="room">Room Number want: </label>
+        <input type="number" name="room" id="room" required min="1" max="500">
+
+        <br><br>
+
+        <label for="budget">Monthly Budget: </label>
+        <input type="number" min="5000" max="50000" step="500" id="budget" name="budget">
+
+        <br><br>
+
+        <label for="dept">Enter ur department: </label>
+        <input type="text" name="dept" id="dept" value="Software Engineering" readonly>
+
+        <br><br>
+
+        <label for="status">Status: </label>
+        <input type="text" name="status" id="status" value="Application Pending." disabled>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+    
+</body>
+</html>

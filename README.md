@@ -20,6 +20,7 @@ This repository documents my journey of learning HTML from fundamentals to pract
 - Lesson 14 — HTML + CSS + JavaScript Linking
 - Lesson 15 — HTML Forms Fundamentals
 - Lesson 16 — HTML Input Types
+- Lesson 17 — HTML Form Attributes + Validation
 
 ## 📁 Repository Structure
 
