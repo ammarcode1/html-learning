@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - University Survival Hub</title>
+    <meta name="description" content="Contact University Survival Hub with questions, suggestions, resource recommendations, and feedback about university life and student resources.">
+    <link rel="icon" href="images/first.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home |</a>
+            <a href="resources.html">Resources |</a>
+            <a href="projects.html">Projects |</a>
+            <a href="articles.html">Articles |</a>
+            <a href="contact.html">Contact </a>
+        </nav>
+        <h1>Contact University Survival Hub</h1>
+        <p>Have a question, suggestion, or resource recommendation? Use the contact form below to send a message to University Survival Hub. This form is for demonstration purposes and does not currently send data to a server.</p>
+    </header>
+
+    <section>
+        <h2>Contact Information</h2>
+        <p>You can use the information below if you need to contact the University Survival Hub team.</p>
+
+        <ul>
+            <li>
+                Email:
+                <a href="mailto:support@universitysurvivalhub.com">
+                support@universitysurvivalhub.com</a>
+            </li>
+
+            <li>
+                Location: University Student Support Center
+            </li>
+
+            <li>
+                Availability: Monday to Friday, 9:00 AM – 5:00 PM
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Send Us a Message</h2>
+        <p>Fill out the form below with your question, feedback, or suggestion.</p>
+
+        <form action="/contact" method="post">
+            <label for="username">Name: </label>
+            <input required type="text" class="username" id="username" placeholder="e.g Muhammad Ammar" name="name">
+
+            <label for="email1">Email: </label>
+            <input type="email" required class="email1" id="email1" placeholder="ammar@gmail.com" name="email">
+
+            <label for="subject">Subject</label>
+            <input type="text" name="subject" id="subject" required>
+
+            <br><br>
+
+            <label for="message">Your Message</label>
+            <textarea name="message" id="message" placeholder="Type here..." rows="15" cols="50"></textarea>
+
+            <br><br>
+
+            <label for="cate">Message Category: </label>
+            <select name="cate" id="cate">
+                <option value="general knowledge" selected>General Question</option>
+                <option value="recommendation">Resource Recommendation</option>
+                <option value="help">Project Help</option>
+                <option value="feedback">Website Feedback</option>
+                <option value="other">Other</option>
+            </select>
+
+            <br><br>
+
+            <fieldset>
+                <legend>Preferred Contact Method</legend>
+                <h3>Select one option</h3>
+
+                <input type="radio" id="phone" name="contact-type" value="phone">
+                <label for="phone">Phone</label>
+
+                <input type="radio" id="email" name="contact-type" value="email">
+                <label for="email">Email</label>
+
+                <input type="radio" name="contact-type" id="no-prefer" value="not-preferred">
+                <label for="no-prefer">No Preference</label>
+            </fieldset>
+
+            <br>
+
+            <button type="submit">Submit Message</button>
+        </form>
+    </section>
+
+    <section>
+        <h3>Important notes</h3>
+        <p>This HTML-only project does not include a backend server, so submitting this form will not actually send the message anywhere. The form is included to demonstrate proper HTML form structure and input elements.</p>
+    </section>
+
+    <footer>
+        University Survival Hub <br>
+        Practical Resources for University students
+        <nav>
+            <a href="index.html">Home |</a>
+            <a href="resources.html">Resources |</a>
+            <a href="projects.html">Projects |</a>
+            <a href="articles.html">Articles |</a>
+            <a href="contact.html">Contact </a>
+        </nav>
+        © 2026 University Survival Hub
+    </footer>
+</body>
+</html>
